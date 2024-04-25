@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
+    background-color: #f1f1f1; /* Light gray for better contrast */
+    color: #333; /* Darker text for better contrast */
 }
 
 header {
@@ -53,4 +54,13 @@ main {
 
 .song h3 {
     margin-top: 10px;
+}
+
+/* Improved contrast for links */
+a {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
 }
